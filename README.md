@@ -1,5 +1,3 @@
-# hfoapp
-
 HFOApp: A MATLAB-based graphic user interface for high frequency oscillations marking
 
 
