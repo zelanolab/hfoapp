@@ -1,0 +1,17 @@
+File created by HFOApp. DO NOT EDIT.
+Number of header lines:  11
+Number of trials: 1
+Data file: ~/Desktop/Utilities/HFO/HFOAPP/example_data/example_data_st.mat
+Time: 2020-10-13 00:00:00 - 2020-10-13 00:03:00
+Total number of channels: 3
+Length of data: 180.0005 s
+Sampling rate: 2048 Hz
+Onset threshold: 3; Inclusion threshold: 5; Number of cycles: 3.
+----------------------------------------------------------------------------------------------------
+Trial, Channel, EventLocation(sample),  EventType, AverageFreq(Hz), PeakZscore, NoCycles,       BPFreq
+    1,   a6 a1,        302076  302164,     ripple,          110.70,       9.53,     4.81,   80.0  250.0
+    1,   a6 a1,        330878  330926,     ripple,          128.00,      12.38,     3.06,   80.0  250.0
+    1,   a6 a1,        339943  339999,     ripple,          122.88,      11.38,     3.42,   80.0  250.0
+    1,   a2 a1,        300952  301005,     ripple,          117.03,       6.40,     3.09,   80.0  250.0
+    1,   a2 a1,        302075  302145,     ripple,          113.78,       9.38,     3.94,   80.0  250.0
+    1,   a2 a1,        330876  330926,     ripple,          124.12,      12.09,     3.09,   80.0  250.0
