@@ -1,7 +1,7 @@
 File created by HFOApp. DO NOT EDIT.
 Number of header lines:  11
 Number of trials: 1
-Data file: ~/Desktop/Utilities/HFO/HFOAPP/example_data/example_data_st.mat
+Data file: ~/HFOAPP/example_data/example_data_st.mat
 Time: 2020-10-13 00:00:00 - 2020-10-13 00:03:00
 Total number of channels: 3
 Length of data: 180.0005 s
