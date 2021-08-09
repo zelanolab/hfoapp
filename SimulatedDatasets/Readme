@@ -1,0 +1,5 @@
+Use Python script HFOApp_SimulatedData.py to generate simulated datasets.
+
+Use HFOApp_SimulateData.m to add noise at different levels to the simulated datasets.
+
+*.cfg are the configurations for all automatic HFO detectors
