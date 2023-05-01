@@ -9,3 +9,5 @@ Related to Guangyu Zhou, Torben Noto, Arjun Sharma, Qiaohan Yang, Karina A. Gonz
 
 Comments and questions: guangyu.zhou@northwestern.edu
 
+
+05/01/23. Fix bug in HFOAutoDetectorHil.m
