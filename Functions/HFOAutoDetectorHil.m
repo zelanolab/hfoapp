@@ -11,6 +11,7 @@ function evinfo = HFOAutoDetectorHil( v, srate, cfg)
 %       'dur_thresh', scalar duration threshold, in seconds
 %       'nocycle_thresh', [] (default), scalar, set this to filter events
 %       'avg_method', 'mov' | 'epoch'
+%       and other fields required by HFOFiltData
 % 
 % Output
 %   evinfo, [] if no events else
