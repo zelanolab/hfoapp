@@ -40,6 +40,7 @@ if ~isempty( cfg.epoch)
 else
     nb_epochs = 1;
     epoch_idx = (1 : nb_pnts)';
+    epoch_len = nb_pnts;
 end
 
 % Compute envelope of band-pass filtered time series
@@ -95,7 +96,7 @@ for x = 1 : nb_epochs
     end
     
     for k = 1 : length( ev_idx)
-        loc = [on_loc( ev_idx( k)), off_loc( ev_idx( k))] + epoch_idx( x, 1) - 1;
+        loc = [on_loc( ev_idx( k)), off_loc( ev_idx( k))] + epoch_idx( 1, x) - 1;
         
         % Estimate number of cycles and average frequency
         [nb_cycles, avg_freq] = EstimateNbcycles( filt_v(loc(1) : loc(2)), srate);
