@@ -10,6 +10,8 @@ Related to Guangyu Zhou, Torben Noto, Arjun Sharma, Qiaohan Yang, Karina A. Gonz
 Comments and questions: guangyu.zhou@northwestern.edu
 
 
+
+
 05/01/23. Fix bug in HFOAutoDetectorHil.m       
           This bug affects the Hilbert Detector that was called by 
           Options -> Automatic HFO detection -> Hilbert Detector (HFOApp), only when "Epoch (s)" was edited.
