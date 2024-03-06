@@ -12,7 +12,14 @@ Comments and questions: guangyu.zhou@northwestern.edu
 
 
 
-05/01/23. Fix bug in HFOAutoDetectorHil.m       
+05/01/2023. Fix bug in HFOAutoDetectorHil.m       
           This bug affects the Hilbert Detector that was called by 
           Options -> Automatic HFO detection -> Hilbert Detector (HFOApp), only when "Epoch (s)" was edited.
+
+
+03/06/2024. An error occurred when select to display events on current channel. 
+	The bug was fixed by changing line 2761: if app.ShowEventOnAllChannelButton.Value == 0 && ~ismember( cur_label, app.uidata.current_channel) 
+	to         
+	if app.ShowEventOnAllChannelButton.Value == 0 && ...
+                    (isempty( app.uidata.current_channel) || ~ismember( cur_label, app.uidata.current_channel( :, 1)))
 
