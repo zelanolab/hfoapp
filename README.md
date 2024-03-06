@@ -23,3 +23,5 @@ Comments and questions: guangyu.zhou@northwestern.edu
 	if app.ShowEventOnAllChannelButton.Value == 0 && ...
                     (isempty( app.uidata.current_channel) || ~ismember( cur_label, app.uidata.current_channel( :, 1)))
 
+      HFOApp.mlapp was updated.
+
